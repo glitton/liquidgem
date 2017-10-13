@@ -1,0 +1,233 @@
+/*CSS for Liquid Gem PSD*/
+
+body {
+  margin: 0 auto;
+  font-family:'Zilla Slab', serif;
+  background-color: #eaf5f9;
+  
+}
+
+nav {
+  height: 95px;
+  width: 100%; 
+  background-color: #eaf5f9;
+}
+
+/*Adding the border in the nav section using pseudo element*/
+.nav-border:after {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 96%; /* Change this to whatever width you want. */
+  padding-top: 20px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid #4C4C4C;  /*This creates the border.*/ 
+}
+
+/*hr.shorter{
+  width: 90%;
+  margin: 0 10px 0 30px;
+}*/
+
+.logo {
+  float: left;
+  margin: 15px 0 100px 25px;
+}
+/*Position absolute relative with the parent div, the nav bar
+/*This changes when the nav changes*/
+#brand { 
+  width: 40%;
+  margin: 30px 0 20px 10px;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4C4C4C;
+  float: left;
+  font-family: 'Cookie', cursive;
+}
+
+span {
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+nav a {
+    color: #4C4C4C;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0 0 0 875px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 42px 20px 20px 10px;
+}
+
+header {
+  text-align: center;
+  margin: 80px;
+  letter-spacing: 1px;
+}
+
+#name {
+  color: #C40062;
+  font-weight: bold;
+}
+
+#landscape {
+  margin: auto;
+  width: 95%;
+  display: block;
+  border-radius: 10px;
+}
+
+.about {
+  float: left;
+  width: 40%;
+  margin: 30px 10px 20px 10px;
+  padding: 30px;
+}
+
+#about-me { 
+  font-weight: bold;
+  color: #C40062;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  text-align: center;
+}
+
+.work {
+  float: right;
+  width: 40%;
+  margin: 30px 10px 20px 10px;
+  padding: 30px;
+  /*position: absolute;*/
+}
+
+#my-work { 
+  font-weight: bold;
+  color: #C40062;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  text-align: center;
+  
+}
+
+p {
+  letter-spacing: .5px;
+}
+
+.photos {
+  width: 98%;
+  margin: 0 auto;
+  position: static;
+}
+
+td {
+  height: 80%;
+}
+
+td img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}  
+
+.fish-names {
+  text-align: center;
+  color:#4C4C4C;
+  font-family:'Zilla Slab', serif;
+  font-size: 18px;
+
+}
+
+.photos {
+  text-align: center;
+  color: #C40062;
+  font-size: 24px;
+  font-family: 'Cookie', cursive;
+}  
+
+.thanks {
+  margin: 80px 0 40px 0;
+  font-weight: bold;
+  color: #C40062;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  text-align: center;
+}
+
+.contact {
+  background: #1a2f3e;
+  height: 560px;
+  width: 100%;
+  margin: 0;
+}
+
+#contact-me {
+  float:left;
+  font-weight: bold;
+  color: #C40062;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  text-align: left;
+  padding: 30px 0 10px 25px;
+}
+
+input[type="text"],
+input[type="email"], 
+textarea {
+  width: 400px;
+  box-sizing:border-box;
+  color: #4C4C4C;
+  font-family:'Zilla Slab', serif;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #eaf5f9;
+}
+
+#submit-button {
+  font-family:'Zilla Slab', serif;
+  font-size: 14px;
+  border-radius: 5px;
+  width:100px;
+  background-color: #eaf5f9;
+  outline: none;
+}
+.social{
+  float:right;
+  margin: 205px 10px 300px 0;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #C40062;
+  color: #eaf5f9;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
